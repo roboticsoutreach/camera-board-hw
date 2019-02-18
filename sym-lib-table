@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name camera-module-rescue)(type Legacy)(uri "${KIPRJMOD}/camera module-rescue.lib")(options "")(descr ""))
+  (lib (name KiCADinfo_RPi-modules)(type Legacy)(uri ${KIPRJMOD}/KiCADinfo_RPi-modules.lib)(options "")(descr ""))
+  (lib (name PAM2306AYPKE)(type Legacy)(uri ${KIPRJMOD}/PAM2306AYPKE/PAM2306AYPKE.lib)(options "")(descr ""))
+  (lib (name AP7115-25SEG-7)(type Legacy)(uri ${AP7115_25SEG_7}/AP7115-25SEG-7.lib)(options "")(descr ""))
+  (lib (name FSUSB42UMX)(type Legacy)(uri ${KIPRJMOD}/FSUSB42UMX/FSUSB42UMX.lib)(options "")(descr ""))
+  (lib (name SIT8008AI-73-XXS-33.333333E)(type Legacy)(uri ${KIPRJMOD}/LIB_SIT8008AI-73-XXS-33.333333E/SIT8008AI-73-XXS-33.333333E/KiCad/SIT8008AI-73-XXS-33.333333E.lib)(options "")(descr ""))
+  (lib (name TS3DDR3812RUAR)(type Legacy)(uri ${KIPRJMOD}/TS3DDR3812RUAR/TS3DDR3812RUAR.lib)(options "")(descr ""))
+  (lib (name HDMI)(type Legacy)(uri D:/SRO/HDMI/HDMI.lib)(options "")(descr ""))
+  (lib (name DMMT5401-7-F)(type Legacy)(uri "${KIPRJMOD}/RPI dual mosfet/DMMT5401-7-F.lib")(options "")(descr ""))
+  (lib (name USB)(type Legacy)(uri "D:/SRO/USB connector/USB.lib")(options "")(descr ""))
+)

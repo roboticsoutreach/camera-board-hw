@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:camera module-cache
 EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
@@ -5047,4 +5046,18 @@ Text Notes 19600 2900 0    50   ~ 0
 Used only as outputs\n so floating is not an issue
 NoConn ~ 19200 5150
 NoConn ~ 19200 5300
+$Comp
+L KiCADinfo_RPi-modules:Board_RPi_CM3_200pConnector_multipart MD1
+U 4 1 5C790B9B
+P 12100 2200
+F 0 "MD1" H 12181 3475 50  0000 C CNN
+F 1 "Board_RPi_CM3_200pConnector_multipart" H 12181 3384 50  0000 C CNN
+F 2 "_" H 18075 -650 10  0001 C CNN
+F 3 "_" H 18075 -650 10  0001 C CNN
+F 4 "_" H 18075 -650 10  0001 C CNN "Manf#"
+F 5 "_" H 18075 -650 10  0001 C CNN "Manf"
+F 6 "_" H 18075 -650 10  0001 C CNN "Optn"
+	4    12100 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

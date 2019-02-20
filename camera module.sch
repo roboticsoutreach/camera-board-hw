@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:camera module-cache
 EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
@@ -2266,7 +2267,7 @@ NoConn ~ 8800 3600
 NoConn ~ 8300 3600
 NoConn ~ 8300 3500
 Text GLabel 8950 3100 2    50   Input ~ 0
-CAM0_CLK
+CAM0_onboard_CLK
 Wire Wire Line
 	8950 2900 8800 2900
 Text GLabel 7750 3300 0    50   Input ~ 0
@@ -2523,7 +2524,7 @@ F 3 "~" H 9100 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 9250 4550 2    50   Input ~ 0
-CAM0_CLK
+CAM0_onboard_CLK
 Wire Wire Line
 	8950 4550 8850 4550
 $Comp
@@ -3848,7 +3849,7 @@ CAM0_onboard_DP1
 Text GLabel 6400 8350 2    50   Input ~ 0
 CAM0_onboard_DN1
 Text GLabel 6400 7750 2    50   Input ~ 0
-CAM0_onboard_CK
+CAM0_onboard_CLK
 Text GLabel 6400 7850 2    50   Input ~ 0
 CAM0_onboard_IO0
 Text GLabel 6400 7650 2    50   Input ~ 0
@@ -5052,12 +5053,56 @@ U 4 1 5C790B9B
 P 12100 2200
 F 0 "MD1" H 12181 3475 50  0000 C CNN
 F 1 "Board_RPi_CM3_200pConnector_multipart" H 12181 3384 50  0000 C CNN
-F 2 "_" H 18075 -650 10  0001 C CNN
+F 2 "1473149-4:TE_1473149-4" H 18075 -650 10  0001 C CNN
 F 3 "_" H 18075 -650 10  0001 C CNN
 F 4 "_" H 18075 -650 10  0001 C CNN "Manf#"
 F 5 "_" H 18075 -650 10  0001 C CNN "Manf"
 F 6 "_" H 18075 -650 10  0001 C CNN "Optn"
 	4    12100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C735C14
+P 19600 13450
+F 0 "H1" H 19700 13496 50  0000 L CNN
+F 1 "MountingHole" H 19700 13405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 19600 13450 50  0001 C CNN
+F 3 "~" H 19600 13450 50  0001 C CNN
+	1    19600 13450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C7360BE
+P 19800 13450
+F 0 "H2" H 19900 13496 50  0000 L CNN
+F 1 "MountingHole" H 19900 13405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 19800 13450 50  0001 C CNN
+F 3 "~" H 19800 13450 50  0001 C CNN
+	1    19800 13450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C736218
+P 20050 13450
+F 0 "H3" H 20150 13496 50  0000 L CNN
+F 1 "MountingHole" H 20150 13405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 20050 13450 50  0001 C CNN
+F 3 "~" H 20050 13450 50  0001 C CNN
+	1    20050 13450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C73901E
+P 20250 13450
+F 0 "H4" H 20350 13496 50  0000 L CNN
+F 1 "MountingHole" H 20350 13405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 20250 13450 50  0001 C CNN
+F 3 "~" H 20250 13450 50  0001 C CNN
+	1    20250 13450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

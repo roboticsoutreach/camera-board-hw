@@ -16,4 +16,5 @@
   (lib (name 1-292303-6)(type Legacy)(uri "${KIPRJMOD}/USB connector/1-292303-6.mod")(options "")(descr ""))
   (lib (name DF37NC-30DS-0.4V_53_)(type Legacy)(uri "${KIPRJMOD}/CAM connector/DF37NC-30DS-0.4V_53_.mod")(options "")(descr ""))
   (lib (name 8971266)(type Legacy)(uri ${KIPRJMOD}/CAMCON/8971266/KiCad/8971266.mod)(options "")(descr ""))
+  (lib (name Inductor_SMD_local)(type KiCad)(uri ${KIPRJMOD}/Inductor_SMD_local.pretty)(options "")(descr ""))
 )

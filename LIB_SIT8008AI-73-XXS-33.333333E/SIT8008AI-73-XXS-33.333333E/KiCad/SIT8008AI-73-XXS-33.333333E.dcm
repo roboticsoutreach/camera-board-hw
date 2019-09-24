@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP SIT8008AI-73-XXS-33.333333E
-D Standard Clock Oscillators
-K
-F https://www.sitime.com/products/datasheets/sit8008/SiT8008-datasheet.pdf
-$ENDCMP
-#
-#End Doc Library

@@ -1,0 +1,242 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+WURTH_685119136923
+$EndINDEX
+$MODULE WURTH_685119136923
+Po 0 0 0 15 00000000 00000000 ~~
+Li WURTH_685119136923
+Cd WR-COM SMT Horizontal Mini HDMI, 19 pins
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -3.062 -1.9059 1 1 0 0.05 N V 21 "WURTH_685119136923"
+T1 -2.517 8.6984 1 1 0 0.05 N V 21 "VAL**"
+DS -5.6 -0.35 -5.6 6.55 0.127 27
+DS -5.6 6.55 -5.6 7.55 0.127 27
+DS 5.6 7.55 5.6 6.55 0.127 27
+DS 5.6 6.55 5.6 -0.35 0.127 27
+DS 5.6 -0.35 -5.6 -0.35 0.127 27
+DS 5.6 6.55 -5.6 6.55 0.127 27
+DS -5.6 7.55 5.6 7.55 0.127 27
+DS 3.1 6.58 4.5 7.29 0.127 27
+DS 4.5 7.29 7.48 7.29 0.127 27
+DS -5.725 0.7 -5.725 1.4 0 28
+DA -5.425 1.4 -5.125 1.4 1800 0 28
+DS -5.125 1.4 -5.125 0.7 0 28
+DA -5.425 0.7 -5.725 0.7 1800 0 28
+DS 5.125 0.7 5.125 1.4 0 28
+DA 5.425 1.4 5.725 1.4 1800 0 28
+DS 5.725 1.4 5.725 0.7 0 28
+DA 5.425 0.7 5.125 0.7 1800 0 28
+DS -5.725 5.3 -5.725 5.8 0 28
+DA -5.425 5.8 -5.125 5.8 1800 0 28
+DS -5.125 5.8 -5.125 5.3 0 28
+DA -5.425 5.3 -5.725 5.3 1800 0 28
+DS 5.125 5.3 5.125 5.8 0 28
+DA 5.425 5.8 5.725 5.8 1800 0 28
+DS 5.725 5.8 5.725 5.3 0 28
+DA 5.425 5.3 5.125 5.3 1800 0 28
+T2 7.700000 7.170000 1 1 0 .05 N V 51 "PCB~EDGE"
+T2 5.680000 9.260000 1 1 0 .05 N V 51 "CONNECTOR~EDGE"
+DS 1 7.58 3.6 9.19 0.127 27
+DS 3.6 9.19 5.58 9.19 0.127 27
+DS -5.6 4.12 -5.6 2.68 0.127 21
+DS 5.6 4.12 5.6 2.68 0.127 21
+DS -4.8 -0.35 -4.035 -0.35 0.127 21
+DS 4.8 -0.35 4.035 -0.35 0.127 21
+DS -6.275 -0.75 6.275 -0.75 0.05 26
+DS 6.275 -0.75 6.275 7.8 0.05 26
+DS 6.275 7.8 -6.275 7.8 0.05 26
+DS -6.275 7.8 -6.275 -0.75 0.05 26
+DC 3.6 -1.2 3.7 -1.2 0.2 21
+DC 3.6 -1.2 3.7 -1.2 0.2 27
+DS -4.8 6.55 4.8 6.55 0.127 21
+$PAD
+Sh "S1" O 2.4 1.2 0 0 900
+Dr 0.6 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -5.425 1.05
+$EndPAD
+$PAD
+Sh "S4" O 2.4 1.2 0 0 900
+Dr 0.6 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 5.425 1.05
+$EndPAD
+$PAD
+Sh "S3" O 1.7 0.85 0 0 900
+Dr 0.6 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 5.425 5.55
+$EndPAD
+$PAD
+Sh "S2" O 1.7 0.85 0 0 900
+Dr 0.6 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -5.425 5.55
+$EndPAD
+$PAD
+Sh "10" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "9" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.4 0
+$EndPAD
+$PAD
+Sh "8" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.8 0
+$EndPAD
+$PAD
+Sh "7" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.2 0
+$EndPAD
+$PAD
+Sh "6" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.6 0
+$EndPAD
+$PAD
+Sh "5" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2 0
+$EndPAD
+$PAD
+Sh "4" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.4 0
+$EndPAD
+$PAD
+Sh "11" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.4 0
+$EndPAD
+$PAD
+Sh "12" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.8 0
+$EndPAD
+$PAD
+Sh "13" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.2 0
+$EndPAD
+$PAD
+Sh "14" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.6 0
+$EndPAD
+$PAD
+Sh "15" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2 0
+$EndPAD
+$PAD
+Sh "16" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.4 0
+$EndPAD
+$PAD
+Sh "3" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.8 0
+$EndPAD
+$PAD
+Sh "2" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.2 0
+$EndPAD
+$PAD
+Sh "1" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.6 0
+$EndPAD
+$PAD
+Sh "17" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.8 0
+$EndPAD
+$PAD
+Sh "18" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.2 0
+$EndPAD
+$PAD
+Sh "19" R 0.23 1 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.6 0
+$EndPAD
+$EndMODULE WURTH_685119136923

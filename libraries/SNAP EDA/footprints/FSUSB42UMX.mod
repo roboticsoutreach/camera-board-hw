@@ -1,0 +1,111 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+IC_FSUSB42UMX
+$EndINDEX
+$MODULE IC_FSUSB42UMX
+Po 0 0 0 15 00000000 00000000 ~~
+Li IC_FSUSB42UMX
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.4474 -1.8104 0.64 0.64 0 0.05 N V 21 "IC_FSUSB42UMX"
+T1 0.032 1.8436 0.64 0.64 0 0.05 N V 21 "VAL**"
+DS -0.7 0.9 -0.7 -0.9 0.127 27
+DS -0.7 -0.9 0.7 -0.9 0.127 27
+DS 0.7 -0.9 0.7 0.9 0.127 27
+DS 0.7 0.9 -0.7 0.9 0.127 27
+DC -1.05 -0.55 -0.979291 -0.55 0.2 21
+DS -0.75 -0.9 -0.75 -0.6 0.127 21
+DS 0.75 -0.9 0.75 -0.55 0.127 21
+DS -0.75 0.55 -0.75 0.9 0.127 21
+DS 0.75 0.55 0.75 0.9 0.127 21
+DS -1.1 -1.3 1.1 -1.3 0.05 26
+DS 1.1 -1.3 1.1 1.3 0.05 26
+DS 1.1 1.3 -1.1 1.3 0.05 26
+DS -1.1 1.3 -1.1 -1.3 0.05 26
+$PAD
+Sh "1" R 0.663 0.225 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.5185 -0.2
+$EndPAD
+$PAD
+Sh "2" R 0.563 0.225 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.5685 0.2
+$EndPAD
+$PAD
+Sh "3" R 0.563 0.225 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.4 0.7685
+$EndPAD
+$PAD
+Sh "4" R 0.563 0.225 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 0.7685
+$EndPAD
+$PAD
+Sh "5" R 0.563 0.225 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.4 0.7685
+$EndPAD
+$PAD
+Sh "6" R 0.563 0.225 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.5685 0.2
+$EndPAD
+$PAD
+Sh "7" R 0.563 0.225 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.5685 -0.2
+$EndPAD
+$PAD
+Sh "8" R 0.563 0.225 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.4 -0.7685
+$EndPAD
+$PAD
+Sh "9" R 0.563 0.225 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -0.7685
+$EndPAD
+$PAD
+Sh "10" R 0.563 0.225 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.4 -0.7685
+$EndPAD
+$EndMODULE IC_FSUSB42UMX

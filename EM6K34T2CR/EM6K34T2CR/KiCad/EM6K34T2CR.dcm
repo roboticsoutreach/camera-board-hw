@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP EM6K34T2CR
-D MOSFET,dual,N-channel,50V,200mA,SOT563 ROHM EM6K34T2CR Dual N-channel MOSFET Transistor, +/-200 mA, 50 V, 6-Pin SOT-563
-K
-F http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/em6k34.pdf
-$ENDCMP
-#
-#End Doc Library

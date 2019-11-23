@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AP7115-25SEG-7
+#
+DEF AP7115-25SEG-7 U 0 40 Y Y 1 L N
+F0 "U" -400 339 50 H V L BNN
+F1 "AP7115-25SEG-7" -400 -457 50 H V L BNN
+F2 "SOT65P210X110-5N" 0 0 50 H I L BNN
+F3 "Diodes Inc." 0 0 50 H I L BNN
+F4 "SOT-353 Diodes Inc." 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "Unavailable" 0 0 50 H I L BNN
+F7 "LDO Regulator Pos 2.5V 0.15A 5-Pin SOT-353 T/R" 0 0 50 H I L BNN
+F8 "AP7115-25SEG-7" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -400 300 400 300 N
+P 2 0 0 16 400 300 400 -300 N
+P 2 0 0 16 400 -300 -400 -300 N
+P 2 0 0 16 -400 -300 -400 300 N
+X IN 1 -600 200 200 R 40 40 0 0 W 
+X BP 4 600 0 200 L 40 40 0 0 P 
+X EN 3 -600 0 200 R 40 40 0 0 I 
+X OUT 5 600 200 200 L 40 40 0 0 O 
+X GND 2 600 -200 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

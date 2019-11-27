@@ -9,5 +9,5 @@
   (lib (name FSUSB42UMX)(type Legacy)(uri "${KIPRJMOD}/libraries/SNAP EDA/Symbols/FSUSB42UMX.lib")(options "")(descr ""))
   (lib (name PAM2306AYPKE)(type Legacy)(uri "${KIPRJMOD}/libraries/SNAP EDA/Symbols/PAM2306AYPKE.lib")(options "")(descr ""))
   (lib (name TS3DDR3812RUAR)(type Legacy)(uri "${KIPRJMOD}/libraries/SNAP EDA/Symbols/TS3DDR3812RUAR.lib")(options "")(descr ""))
-  (lib (name FST16233MTDX)(type Legacy)(uri "F:/SRO/libraries/Made by Joe/FST16233MTDX.lib")(options "")(descr ""))
+  (lib (name FST16233MTDX)(type Legacy)(uri "${KIPRJMOD}/libraries/Made by Joe/FST16233MTDX.lib")(options "")(descr ""))
 )

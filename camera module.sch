@@ -750,16 +750,16 @@ Text GLabel 19200 5000 2    50   Input ~ 0
 GPIO43
 Text GLabel 19750 2600 2    50   Input ~ 0
 GPIO27
-Text GLabel 21200 1550 1    50   Input ~ 0
+Text GLabel 21450 1650 0    50   Input ~ 0
 CD1_SDA
-Text GLabel 21100 1550 1    50   Input ~ 0
+Text GLabel 21450 1750 0    50   Input ~ 0
 CD1_SCL
 Text GLabel 21450 1850 0    50   Input ~ 0
-CAM1_CLK
+CAM1_IO1
 Text GLabel 21450 1950 0    50   Input ~ 0
 CAM1_IO0
 Text GLabel 21450 2050 0    50   Input ~ 0
-CAM0_CK
+CAM0_IO1
 Text GLabel 21450 2150 0    50   Input ~ 0
 CAM0_IO0
 Wire Notes Line
@@ -1794,7 +1794,7 @@ F 3 "~" H 9100 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 9250 4850 2    50   Input ~ 0
-CAM0_onboard_CLK
+CAM0_onboard_IO1
 $Comp
 L Device:L_Core_Iron L5
 U 1 1 5C8F0255
@@ -2044,7 +2044,7 @@ CAM1_CN
 Text GLabel 6500 3200 2    50   Input ~ 0
 CAM1_DP0
 Text GLabel 14850 6850 0    50   Input ~ 0
-CAM1_CK
+CAM1_IO1
 Text GLabel 14850 6950 0    50   Input ~ 0
 CAM1_IO0
 Wire Wire Line
@@ -2120,14 +2120,14 @@ Wire Wire Line
 Text GLabel 1750 7950 0    60   Input ~ 0
 CM_3V3
 Text GLabel 17500 2000 0    50   Input ~ 0
-SDA
+CD0_SDA
 Text GLabel 17500 2150 0    50   Input ~ 0
-SCL
-Text GLabel 20900 1550 1    50   Input ~ 0
 CD0_SCL
-Text GLabel 17500 2900 0    50   Input ~ 0
-CAM0_CK
-Text GLabel 17500 3050 0    50   Input ~ 0
+Text GLabel 21450 1550 0    50   Input ~ 0
+CD0_SCL
+Text GLabel 17500 2600 0    50   Input ~ 0
+CAM0_IO1
+Text GLabel 17500 2750 0    50   Input ~ 0
 CAM0_IO0
 Text GLabel 17500 3350 0    50   Input ~ 0
 SPI0_MISO
@@ -2335,10 +2335,6 @@ Text GLabel 21450 4300 0    50   Input ~ 0
 SPI0_MISO
 Text GLabel 21450 4200 0    50   Input ~ 0
 SPI0_CS
-Text GLabel 20450 1650 0    50   Input ~ 0
-SDA
-Text GLabel 20450 1750 0    50   Input ~ 0
-SCL
 Text GLabel 21450 3400 0    50   Input ~ 0
 SDA
 Text GLabel 21450 3500 0    50   Input ~ 0
@@ -2488,28 +2484,6 @@ Wire Notes Line
 Wire Notes Line
 	16650 9350 16650 11600
 $Comp
-L Device:LED D4
-U 1 1 5E8BEF3F
-P 13500 13250
-F 0 "D4" V 13538 13133 50  0000 R CNN
-F 1 "LED" V 13447 13133 50  0000 R CNN
-F 2 "LEDs:LED_0805_HandSoldering" H 13500 13250 50  0001 C CNN
-F 3 "~" H 13500 13250 50  0001 C CNN
-	1    13500 13250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D5
-U 1 1 5E8BF370
-P 13700 13250
-F 0 "D5" V 13738 13133 50  0000 R CNN
-F 1 "LED" V 13647 13133 50  0000 R CNN
-F 2 "LEDs:LED_0805_HandSoldering" H 13700 13250 50  0001 C CNN
-F 3 "~" H 13700 13250 50  0001 C CNN
-	1    13700 13250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:LED D7
 U 1 1 5E8BF46E
 P 13900 13250
@@ -2576,17 +2550,7 @@ F 3 "" H 13950 13700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13500 13400 13500 13650
-Wire Wire Line
-	13500 13650 13700 13650
-Wire Wire Line
-	13700 13400 13700 13650
-Connection ~ 13700 13650
-Wire Wire Line
-	13700 13650 13900 13650
-Wire Wire Line
 	13900 13400 13900 13650
-Connection ~ 13900 13650
 Wire Wire Line
 	14100 13400 14100 13650
 Wire Wire Line
@@ -2658,10 +2622,6 @@ Text GLabel 15000 14500 1    50   Input ~ 0
 GPIO42
 Text GLabel 15200 14500 1    50   Input ~ 0
 GPIO43
-Text GLabel 13500 12800 1    50   Input ~ 0
-GPIO28
-Text GLabel 13700 12800 1    50   Input ~ 0
-GPIO29
 Wire Notes Line
 	13200 11900 15850 11900
 Wire Notes Line
@@ -2714,7 +2674,7 @@ CAM1_CN
 Text GLabel 11150 7450 2    50   Input ~ 0
 CAM1_DP0
 Text GLabel 11150 8350 2    50   Input ~ 0
-CAM1_CK
+CAM1_IO1
 Text GLabel 11150 8250 2    50   Input ~ 0
 CAM1_IO0
 Text GLabel 11150 8450 2    50   Input ~ 0
@@ -2838,7 +2798,7 @@ CAM0_DP1
 Text GLabel 5100 8900 0    50   Input ~ 0
 CAM0_DN1
 Text GLabel 5100 9400 0    50   Input ~ 0
-CAM0_CK
+CAM0_IO1
 Text GLabel 6500 8500 2    50   Input ~ 0
 CAM0_IO0
 Text GLabel 6500 8200 2    50   Input ~ 0
@@ -2856,7 +2816,7 @@ CAM0_onboard_DP1
 Text GLabel 6500 8900 2    50   Input ~ 0
 CAM0_onboard_DN1
 Text GLabel 6500 9400 2    50   Input ~ 0
-CAM0_onboard_CLK
+CAM0_onboard_IO1
 Text GLabel 5100 8400 0    50   Input ~ 0
 CAM0_onboard_IO0
 Text GLabel 5100 8100 0    50   Input ~ 0
@@ -2876,7 +2836,7 @@ CAM0_offboard_DP1
 Text GLabel 6500 9000 2    50   Input ~ 0
 CAM0_offboard_DN1
 Text GLabel 6500 9500 2    50   Input ~ 0
-CAM0_offboard_CK
+CAM0_offboard_IO1
 Text GLabel 5100 8500 0    50   Input ~ 0
 CAM0_offboard_IO0
 Text GLabel 5100 8200 0    50   Input ~ 0
@@ -2939,7 +2899,7 @@ CAM0_offboard_DP1
 Text GLabel 8800 8000 2    50   Input ~ 0
 CAM0_offboard_DN1
 Text GLabel 8250 8700 2    50   Input ~ 0
-CAM0_offboard_CK
+CAM0_offboard_IO1
 Text GLabel 8250 8600 2    50   Input ~ 0
 CAM0_offboard_IO0
 Text GLabel 8250 8800 2    50   Input ~ 0
@@ -3020,7 +2980,7 @@ CAM0_offboard_DP1
 Text GLabel 8350 10100 0    50   Input ~ 0
 CAM0_offboard_DN1
 Text GLabel 8900 9600 0    50   Input ~ 0
-CAM0_offboard_CK
+CAM0_offboard_IO1
 Text GLabel 8900 9700 0    50   Input ~ 0
 CAM0_offboard_IO0
 Text GLabel 8900 10500 0    50   Input ~ 0
@@ -3112,28 +3072,6 @@ F 1 "470R" H 13970 12905 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 13830 12950 50  0001 C CNN
 F 3 "~" H 13900 12950 50  0001 C CNN
 	1    13900 12950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R26
-U 1 1 5E57101C
-P 13700 12950
-F 0 "R26" H 13770 12996 50  0000 L CNN
-F 1 "470R" H 13770 12905 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13630 12950 50  0001 C CNN
-F 3 "~" H 13700 12950 50  0001 C CNN
-	1    13700 12950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R23
-U 1 1 5E571022
-P 13500 12950
-F 0 "R23" H 13570 12996 50  0000 L CNN
-F 1 "470R" H 13570 12905 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13430 12950 50  0001 C CNN
-F 3 "~" H 13500 12950 50  0001 C CNN
-	1    13500 12950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3239,28 +3177,17 @@ F 3 "" H 21450 4600 50  0001 C CNN
 	1    21450 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J11
-U 1 1 5C7AB2A0
-P 21650 3500
-F 0 "J11" H 21730 3542 50  0000 L CNN
-F 1 "Conn_01x05" H 21730 3451 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 21650 3500 50  0001 C CNN
-F 3 "~" H 21650 3500 50  0001 C CNN
-	1    21650 3500
-	1    0    0    -1  
-$EndComp
 Text GLabel 21450 3300 0    50   Input ~ 0
 3V3
 $Comp
 L power:GND #PWR0172
 U 1 1 5C810D55
-P 21450 3700
-F 0 "#PWR0172" H 21450 3450 50  0001 C CNN
-F 1 "GND" H 21455 3527 50  0000 C CNN
-F 2 "" H 21450 3700 50  0001 C CNN
-F 3 "" H 21450 3700 50  0001 C CNN
-	1    21450 3700
+P 21450 3600
+F 0 "#PWR0172" H 21450 3350 50  0001 C CNN
+F 1 "GND" H 21455 3427 50  0000 C CNN
+F 2 "" H 21450 3600 50  0001 C CNN
+F 3 "" H 21450 3600 50  0001 C CNN
+	1    21450 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3809,10 +3736,6 @@ Wire Wire Line
 Connection ~ 19700 2600
 Wire Wire Line
 	19700 2600 19200 2600
-Text GLabel 19200 2750 2    50   Input ~ 0
-GPIO28
-Text GLabel 19200 2900 2    50   Input ~ 0
-GPIO29
 NoConn ~ 19200 5150
 NoConn ~ 19200 5300
 $Comp
@@ -5081,9 +5004,9 @@ Connection ~ 19600 11050
 Wire Wire Line
 	19850 11150 20350 11150
 Connection ~ 19850 11150
-Text GLabel 20350 11050 2    50   Input ~ 0
+Text GLabel 17500 10950 2    50   Input ~ 0
 ID_SD
-Text GLabel 20350 11150 2    50   Input ~ 0
+Text GLabel 17500 11100 2    50   Input ~ 0
 ID_SC
 $Comp
 L Device:R R?
@@ -5132,61 +5055,12 @@ F 3 "" H 20150 11550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	20150 11550 20150 11450
-Wire Wire Line
-	20450 1650 20800 1650
-Wire Wire Line
-	20450 1750 20700 1750
-Wire Wire Line
-	21200 1550 21200 1650
-Wire Wire Line
-	21200 1650 21450 1650
-Connection ~ 21200 1650
-Wire Wire Line
-	21100 1550 21100 1750
-Wire Wire Line
-	21100 1750 21450 1750
-Connection ~ 21100 1750
 Text GLabel 17500 2300 0    50   Input ~ 0
-CAM1_CLK
+CAM1_IO1
 Text GLabel 17500 2450 0    50   Input ~ 0
 CAM1_IO0
-Text GLabel 21000 1550 1    50   Input ~ 0
+Text GLabel 21450 1450 0    50   Input ~ 0
 CD0_SDA
-Wire Wire Line
-	20900 1550 20900 1750
-Connection ~ 20900 1750
-Wire Wire Line
-	20900 1750 21100 1750
-Wire Wire Line
-	21000 1550 21000 1650
-Connection ~ 21000 1650
-Wire Wire Line
-	21000 1650 21200 1650
-Text GLabel 20800 1550 1    50   Input ~ 0
-ID_SD
-Text GLabel 20700 1550 1    50   Input ~ 0
-ID_SC
-Wire Wire Line
-	20800 1550 20800 1650
-Connection ~ 20800 1650
-Wire Wire Line
-	20800 1650 21000 1650
-Wire Wire Line
-	20700 1550 20700 1750
-Connection ~ 20700 1750
-Wire Wire Line
-	20700 1750 20900 1750
-$Comp
-L Connector_Generic:Conn_01x06 J?
-U 1 1 608AFE80
-P 21650 1850
-F 0 "J?" H 21730 1842 50  0000 L CNN
-F 1 "Conn_01x06" H 21730 1751 50  0000 L CNN
-F 2 "" H 21650 1850 50  0001 C CNN
-F 3 "~" H 21650 1850 50  0001 C CNN
-	1    21650 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	19950 6300 20000 6300
 Connection ~ 20000 6300
@@ -5202,4 +5076,38 @@ Wire Notes Line
 	18950 13650 18950 12250
 Text Notes 19050 12550 0    197  ~ 0
 MOUNTING HOLES
+Text GLabel 19200 2750 2    50   Input ~ 0
+SDA
+Text GLabel 19200 2900 2    50   Input ~ 0
+SCL
+Text GLabel 17400 10950 0    50   Input ~ 0
+CD0_SDA
+Text GLabel 17400 11100 0    50   Input ~ 0
+CD0_SCL
+Wire Wire Line
+	17400 10950 17500 10950
+Wire Wire Line
+	17500 11100 17400 11100
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5E0A8339
+P 21650 1750
+F 0 "J?" H 21730 1742 50  0000 L CNN
+F 1 "Conn_01x08" H 21730 1651 50  0000 L CNN
+F 2 "" H 21650 1750 50  0001 C CNN
+F 3 "~" H 21650 1750 50  0001 C CNN
+	1    21650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5E227C53
+P 21650 3400
+F 0 "J?" H 21730 3392 50  0000 L CNN
+F 1 "Conn_01x04" H 21730 3301 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 21650 3400 50  0001 C CNN
+F 3 "~" H 21650 3400 50  0001 C CNN
+	1    21650 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,0 +1,261 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+CNC_2001-1-2-21-00-BK
+$EndINDEX
+$MODULE CNC_2001-1-2-21-00-BK
+Po 0 0 0 15 00000000 00000000 ~~
+Li CNC_2001-1-2-21-00-BK
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -3.06 -2.775 1 1 0 0.05 N V 21 "CNC_2001-1-2-21-00-BK"
+T1 -2.425 7.465 1 1 0 0.05 N V 21 "VAL**"
+DS -5.755 4.5 -5.755 4.22 0 28
+DA -5.4325 4.2225 -5.43 3.9 -900 0 28
+DA -5.4275 4.2225 -5.105 4.22 -900 0 28
+DS -5.105 4.22 -5.105 4.5 0 28
+DS -5.105 4.5 -5.105 4.78 0 28
+DA -5.4275 4.7775 -5.43 5.1 -900 0 28
+DA -5.4325 4.7775 -5.755 4.78 -900 0 28
+DS -5.755 4.78 -5.755 4.5 0 28
+DS 5.095 4.5 5.095 4.22 0 28
+DA 5.4175 4.2225 5.42 3.9 -900 0 28
+DA 5.4225 4.2225 5.745 4.22 -900 0 28
+DS 5.745 4.22 5.745 4.5 0 28
+DS 5.745 4.5 5.745 4.78 0 28
+DA 5.4225 4.7775 5.42 5.1 -900 0 28
+DA 5.4175 4.7775 5.095 4.78 -900 0 28
+DS 5.095 4.78 5.095 4.5 0 28
+DS -5.755 0 -5.755 -0.38 0 28
+DA -5.4325 -0.3775 -5.43 -0.7 -900 0 28
+DA -5.4275 -0.3775 -5.105 -0.38 -900 0 28
+DS -5.105 -0.38 -5.105 0 0 28
+DS -5.105 0 -5.105 0.38 0 28
+DA -5.4275 0.3775 -5.43 0.7 -900 0 28
+DA -5.4325 0.3775 -5.755 0.38 -900 0 28
+DS -5.755 0.38 -5.755 0 0 28
+DS 5.095 0 5.095 -0.38 0 28
+DA 5.4175 -0.3775 5.42 -0.7 -900 0 28
+DA 5.4225 -0.3775 5.745 -0.38 -900 0 28
+DS 5.745 -0.38 5.745 0 0 28
+DS 5.745 0 5.745 0.38 0 28
+DA 5.4225 0.3775 5.42 0.7 -900 0 28
+DA 5.4175 0.3775 5.095 0.38 -900 0 28
+DS 5.095 0.38 5.095 0 0 28
+DS -5.6 -1 5.6 -1 0.127 27
+DS 5.6 -1 5.6 6.5 0.127 27
+DS 5.6 6.5 -5.6 6.5 0.127 27
+DS -5.6 6.5 -5.6 -1 0.127 27
+DS 5.6 6.5 -5.6 6.5 0.127 21
+DS -5.6 2.8 -5.6 1.7 0.127 21
+DS 5.6 2.8 5.6 1.7 0.127 21
+DS 4.1 -1 4.4 -1 0.127 21
+DS -4.1 -1 -4.4 -1 0.127 21
+DC 4.3 -1.5 4.4 -1.5 0.2 21
+DC 4.3 -1.5 4.4 -1.5 0.2 27
+DS -6.31 -2 6.31 -2 0.05 26
+DS 6.31 -2 6.31 6.75 0.05 26
+DS 6.31 6.75 -6.31 6.75 0.05 26
+DS -6.31 6.75 -6.31 -2 0.05 26
+$PAD
+Sh "1" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.6 -1.15
+$EndPAD
+$PAD
+Sh "2" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.2 -1.15
+$EndPAD
+$PAD
+Sh "3" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.8 -1.15
+$EndPAD
+$PAD
+Sh "4" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.4 -1.15
+$EndPAD
+$PAD
+Sh "5" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2 -1.15
+$EndPAD
+$PAD
+Sh "6" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.6 -1.15
+$EndPAD
+$PAD
+Sh "7" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.2 -1.15
+$EndPAD
+$PAD
+Sh "8" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.8 -1.15
+$EndPAD
+$PAD
+Sh "9" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.4 -1.15
+$EndPAD
+$PAD
+Sh "10" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -1.15
+$EndPAD
+$PAD
+Sh "11" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.4 -1.15
+$EndPAD
+$PAD
+Sh "12" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.8 -1.15
+$EndPAD
+$PAD
+Sh "13" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.2 -1.15
+$EndPAD
+$PAD
+Sh "14" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.6 -1.15
+$EndPAD
+$PAD
+Sh "15" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2 -1.15
+$EndPAD
+$PAD
+Sh "16" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.4 -1.15
+$EndPAD
+$PAD
+Sh "17" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.8 -1.15
+$EndPAD
+$PAD
+Sh "18" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.2 -1.15
+$EndPAD
+$PAD
+Sh "19" R 0.23 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.6 -1.15
+$EndPAD
+$PAD
+Sh "Hole" C 1 1 0 0 0
+Dr 1 0 0
+At HOLE N 00E0FFFF
+Po -3.75 0.8
+$EndPAD
+$PAD
+Sh "Hole" C 1 1 0 0 0
+Dr 1 0 0
+At HOLE N 00E0FFFF
+Po 3.75 0.8
+$EndPAD
+$PAD
+Sh "S1" O 2.5 1.25 0 0 900
+Dr 0.65 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -5.43 0
+$EndPAD
+$PAD
+Sh "S2" O 2.5 1.25 0 0 900
+Dr 0.65 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 5.42 0
+$EndPAD
+$PAD
+Sh "S3" O 2.5 1.25 0 0 900
+Dr 0.65 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -5.43 4.5
+$EndPAD
+$PAD
+Sh "S4" O 2.5 1.25 0 0 900
+Dr 0.65 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 5.42 4.5
+$EndPAD
+$EndMODULE CNC_2001-1-2-21-00-BK

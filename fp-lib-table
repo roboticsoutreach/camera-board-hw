@@ -14,4 +14,6 @@
   (lib (name "USB_A connector")(type KiCad)(uri "${KIPRJMOD}/libraries/SNAP EDA/footprints/USB_A connector.pretty")(options "")(descr ""))
   (lib (name CAMCONs)(type KiCad)(uri "${KIPRJMOD}/libraries/Made by Joe/CAMCONs.pretty")(options "")(descr ""))
   (lib (name SDR0805)(type KiCad)(uri "${KIPRJMOD}/libraries/Made by Joe/SDR0805.pretty")(options "")(descr ""))
+  (lib (name camera-board-hw-master)(type KiCad)(uri "${KIPRJMOD}/libraries/SNAP EDA/footprints/camera-board-hw-master.pretty")(options "")(descr ""))
+  (lib (name "camera connector")(type KiCad)(uri "${KIPRJMOD}/libraries/SNAP EDA/footprints/camera connector.pretty")(options "")(descr ""))
 )

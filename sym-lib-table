@@ -10,4 +10,7 @@
   (lib (name PAM2306AYPKE)(type Legacy)(uri "${KIPRJMOD}/libraries/SNAP EDA/Symbols/PAM2306AYPKE.lib")(options "")(descr ""))
   (lib (name TS3DDR3812RUAR)(type Legacy)(uri "${KIPRJMOD}/libraries/SNAP EDA/Symbols/TS3DDR3812RUAR.lib")(options "")(descr ""))
   (lib (name FST16233MTDX)(type Legacy)(uri "${KIPRJMOD}/libraries/Made by Joe/FST16233MTDX.lib")(options "")(descr ""))
+  (lib (name NCP1579)(type Legacy)(uri "${KIPRJMOD}/libraries/Made by Joe/NCP1579.lib")(options "")(descr ""))
+  (lib (name TS3DS10224)(type Legacy)(uri "${KIPRJMOD}/libraries/Made by Joe/TS3DS10224.lib")(options "")(descr ""))
+  (lib (name 74LCX257MTC)(type Legacy)(uri "${KIPRJMOD}/libraries/Made by Joe/74LCX257MTC.lib")(options "")(descr ""))
 )
